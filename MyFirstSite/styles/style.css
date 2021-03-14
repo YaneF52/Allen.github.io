@@ -1,0 +1,40 @@
+html {
+    /*[px表示像素，基础字号为10px*/
+    font-size:10px;
+    font-family: 'Zilla Slab', serif;
+    background-color: #00539F;/*设置整个页面的颜色*/
+}/*这条规则为整个页面设定了一个全局字体和字号和颜色*/
+h1 {
+    margin:0;
+    padding:20px 0;
+    color:#00539F;
+    text-shadow:3px 3px 1px black;
+    font-size:60px;
+    text-align:center;
+    font-family: 'Bebas Neue', cursive;
+}
+p,li {
+    font-size:16px;
+    line-height: 2;/*line-height后面可以跟不同的参数，如果是数字，就是当前字体大小乘以数字*/
+    letter-spacing: 1px;
+}
+@font-face{/*引入本地字体*/
+    font-family:"ZCOOL XiaoWei";
+    src:url("fonts/chinesefonts/ZCOOL+XiaoWei/ZCOOLXiaoWei-Regular.ttf");
+}
+#汉字测试{  
+font-size: 20px;
+text-align:left;
+font-family:"ZCOOL XiaoWei";
+}
+body {
+    width:600px;
+    margin:0 auto;
+    background-color: beige;
+    padding:0 20px 20px 20px;
+    border:1px solid cyan;
+}
+img{
+    display:block;
+    margin:0 auto;
+}
